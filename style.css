@@ -107,14 +107,14 @@ header {
     display: flex;
     flex-direction: column;
     width: 97.5%;
-    height: 40vh;
+    height: 25vh;
     gap: .5rem;
     justify-content: center;
     align-items: center;
-    margin: 1rem 1rem 2rem 1rem;
+    margin: 1rem 1rem 0 1rem;
     transition: 400ms all ease-in-out;
     min-width: fit-content;
-    min-height: 50vh;
+    min-height: 28vh;
 }
 .nav-direction {
     display: flex;
@@ -143,7 +143,7 @@ header {
     font-weight: 500;
     font-size: 34px;
     margin: 0 8rem;
-    min-width: 50rem;
+    min-width: 60rem;
     min-height: 1px;
 }
 .nav-test {
@@ -163,7 +163,7 @@ header {
     height: 10vh;
     align-items: center;
     justify-content: center;
-    margin: 3rem 2rem; 
+    margin: 1rem 2rem 2rem 2rem; 
     transition: 500ms all ease;;
     min-width: 20rem;
     min-height: 2rem;
@@ -173,7 +173,7 @@ header {
 }
 .search input {
     width: 25rem;
-    height: 2.6rem;
+    height: 3.6rem;
     border-radius: 7px;
     background: #1C140F;
     color: #FFFFFF;
@@ -183,7 +183,7 @@ header {
     transition: 500ms all ease;
     position: relative;
     min-width: 25rem;
-    min-height: 2.6rem;
+    min-height: 3.6rem;
 }
 .search-form {
     position: relative;
@@ -203,8 +203,8 @@ header {
 }
 .search i {
     position: absolute;
-    top: 12px;
-    left: 20px;
+    top: 220x;
+    left: 25px;
     font-size: 18px;
 }
 .search input:hover {
